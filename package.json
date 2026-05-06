@@ -1,0 +1,55 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "Autonomous research agent with Plan-Execute-Observe-Reflect loop",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/cli.ts",
+    "test": "jest --passWithNoTests",
+    "eval": "tsx src/eval/runEval.ts",
+    "dev": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "research",
+    "rag"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.94.0",
+    "@mozilla/readability": "^0.6.0",
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.216.0",
+    "@opentelemetry/sdk-node": "^0.216.0",
+    "@opentelemetry/sdk-trace-node": "^2.7.1",
+    "commander": "^14.0.3",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.8.5",
+    "jsdom": "^29.1.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^6.36.0",
+    "pg": "^8.20.0",
+    "pgvector": "^0.2.1",
+    "uuid": "^14.0.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/jsdom": "^28.0.1",
+    "@types/node": "^25.6.0",
+    "@types/node-fetch": "^2.6.13",
+    "@types/pg": "^8.20.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.2",
+    "@typescript-eslint/parser": "^8.59.2",
+    "eslint": "^10.3.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"critic.d.ts","sourceRoot":"","sources":["../../src/agents/critic.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,CAAC,EAAE,MAAM,KAAK,CAAC;AAExB,OAAO,EAAE,QAAQ,EAAE,YAAY,EAAc,MAAM,eAAe,CAAC;AAGnE,eAAO,MAAM,kBAAkB;;;;;;;;;;;;iBAS7B,CAAC;AAEH,wBAAsB,SAAS,CAC7B,WAAW,EAAE,MAAM,EACnB,QAAQ,EAAE,QAAQ,EAAE,EACpB,QAAQ,EAAE,MAAM,GACf,OAAO,CAAC,YAAY,CAAC,CA8DvB"}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tech-001",
+    "category": "technical_comparison",
+    "question": "Compare pgvector vs Pinecone vs Weaviate for RAG in 2024",
+    "must_cover": ["latency", "scalability", "cost", "ease of use", "vector dimensions"],
+    "forbidden_claims": ["pgvector is always faster than Pinecone"],
+    "min_sources": 3
+  },
+  {
+    "id": "tech-002",
+    "category": "technical_comparison",
+    "question": "What are the tradeoffs between LangChain, LlamaIndex, and Haystack for building AI pipelines?",
+    "must_cover": ["performance", "flexibility", "community", "documentation"],
+    "forbidden_claims": [],
+    "min_sources": 3
+  },
+  {
+    "id": "tech-003",
+    "category": "technical_comparison",
+    "question": "Compare Redis vs Elasticsearch vs MongoDB for semantic search",
+    "must_cover": ["query performance", "indexing", "scalability"],
+    "forbidden_claims": [],
+    "min_sources": 3
+  },
+  {
+    "id": "tech-004",
+    "category": "technical_comparison",
+    "question": "What are the differences between GPT-4o, Claude 3.5, and Gemini 1.5 Pro?",
+    "must_cover": ["context window", "pricing", "strengths", "weaknesses"],
+    "forbidden_claims": [],
+    "min_sources": 3
+  },
+  {
+    "id": "tech-005",
+    "category": "technical_comparison",
+    "question": "Compare Docker vs Kubernetes for small-scale AI application deployment",
+    "must_cover": ["complexity", "resource usage", "scaling"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "current-001",
+    "category": "current_events",
+    "question": "What are the latest AI agent frameworks in 2024?",
+    "must_cover": ["AutoGPT", "frameworks", "capabilities"],
+    "forbidden_claims": [],
+    "min_sources": 3
+  },
+  {
+    "id": "current-002",
+    "category": "current_events",
+    "question": "What happened with OpenAI in 2024?",
+    "must_cover": ["GPT-4o", "products"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "current-003",
+    "category": "current_events",
+    "question": "What are the most recent breakthroughs in multimodal AI?",
+    "must_cover": ["vision", "audio", "applications"],
+    "forbidden_claims": [],
+    "min_sources": 3
+  },
+  {
+    "id": "current-004",
+    "category": "current_events",
+    "question": "What are the new features in Python 3.12 and 3.13?",
+    "must_cover": ["performance", "syntax", "stdlib"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "current-005",
+    "category": "current_events",
+    "question": "What are the latest developments in open-source LLMs in 2024?",
+    "must_cover": ["Llama", "Mistral", "benchmarks"],
+    "forbidden_claims": [],
+    "min_sources": 3
+  },
+  {
+    "id": "howto-001",
+    "category": "how_to",
+    "question": "How do I implement retrieval-augmented generation with pgvector?",
+    "must_cover": ["embedding", "indexing", "querying", "chunking"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "howto-002",
+    "category": "how_to",
+    "question": "How do I fine-tune a small LLM on custom data?",
+    "must_cover": ["dataset preparation", "training", "evaluation"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "howto-003",
+    "category": "how_to",
+    "question": "How do I set up Kubernetes for a machine learning workload?",
+    "must_cover": ["GPU", "autoscaling", "deployment"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "howto-004",
+    "category": "how_to",
+    "question": "How do I build a production-ready REST API with FastAPI and PostgreSQL?",
+    "must_cover": ["authentication", "database", "testing", "deployment"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "howto-005",
+    "category": "how_to",
+    "question": "How do I implement streaming responses in a TypeScript API?",
+    "must_cover": ["SSE", "WebSocket", "implementation"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "ambig-001",
+    "category": "ambiguous",
+    "question": "Which vector database should I use?",
+    "must_cover": ["use case considerations", "tradeoffs"],
+    "forbidden_claims": ["There is one best vector database for all use cases"],
+    "min_sources": 2
+  },
+  {
+    "id": "ambig-002",
+    "category": "ambiguous",
+    "question": "Is AI going to replace programmers?",
+    "must_cover": ["current capabilities", "limitations", "augmentation vs replacement"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "ambig-003",
+    "category": "ambiguous",
+    "question": "What's the best way to deploy machine learning models?",
+    "must_cover": ["considerations", "options", "tradeoffs"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "ambig-004",
+    "category": "ambiguous",
+    "question": "How much does it cost to run an LLM?",
+    "must_cover": ["API costs", "self-hosting", "factors"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  },
+  {
+    "id": "ambig-005",
+    "category": "ambiguous",
+    "question": "Should I use TypeScript or Python for my AI project?",
+    "must_cover": ["ecosystem", "tooling", "tradeoffs"],
+    "forbidden_claims": [],
+    "min_sources": 2
+  }
+]
